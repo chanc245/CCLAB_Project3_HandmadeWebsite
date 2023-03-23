@@ -3,8 +3,17 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.hero {
+.hero-test {
   background-color: lightslategray;
+  padding: 2%;
+  margin-right: 6%;
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+
+.hero {
+  /* background-color: lightslategray; */
   padding: 2%;
   margin-right: 6%;
   width: 60%;
@@ -19,6 +28,7 @@
   width: 26%;
   height: 100%;
   display: inline-block;
+  align-items: flex-end;
 }
 
 body {
@@ -26,9 +36,52 @@ body {
   padding: 50;
 }
 
+
+.poem-first-line {
+  padding: 300px 0;
+  text-align: middle;
+  /* align-content: center; */
+  /* align-items: center; */
+}
+
+
+.animation-ex {
+  width: 500px;
+  height: 200px;
+  /* background-color: red; */
+  animation-name: ani-ex;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes ani-ex {
+  0% {
+    background-color: rgba(214, 198, 228, 0.3);
+  }
+
+  50% {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  100% {
+    background-color: rgba(214, 198, 228, 0.3);
+  }
+
+
+  /* from {
+    background-color: rgb(221, 209, 232);
+  }
+
+  to {
+    background-color: rgb(255, 255, 255);
+  } */
+
+}
+
 mark {
-  background-color: #d9dff2;
-  color: #4060bf;
+  background-color: rgba(214, 198, 228, 0.3);
+  color: rgb(96, 54, 133);
 }
 
 .blue-square {
