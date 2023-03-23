@@ -1,4 +1,50 @@
 .test {
-    color: blue;
-    font-family: 'Courier New', Courier, monospace;
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hero {
+  background-color: lightslategray;
+  padding: 2%;
+  margin-right: 6%;
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+
+.nav {
+  position: fixed;
+  /* this make sure that it dont move around with the camera */
+  padding: 2%;
+  width: 26%;
+  height: 100%;
+  display: inline-block;
+}
+
+body {
+  margin: 50;
+  padding: 50;
+}
+
+mark {
+  background-color: #d9dff2;
+  color: #4060bf;
+}
+
+.blue-square {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.red-square {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  display: none;
+}
+
+.blue-square.clicked+.red-square {
+  display: show;
 }
