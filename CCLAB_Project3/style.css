@@ -1,17 +1,3 @@
-.test {
-  color: blue;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.hero-test {
-  background-color: lightslategray;
-  padding: 2%;
-  margin-right: 6%;
-  width: 60%;
-  display: inline-block;
-  float: right;
-}
-
 .hero {
   /* background-color: lightslategray; */
   /* position: fixed; */
@@ -53,6 +39,7 @@
   /* background-image: url("/image/1_2_background.png"); */
 }
 
+/* background picture placing */
 .line1 {
   background-image: url("/image/1_2_background.png");
 }
@@ -71,7 +58,7 @@
   background-image: url("/image/4_2_background.png")
 }
 
-
+/* line position placing */
 .poem-first-line {
   margin-left: 1550px;
 }
@@ -88,7 +75,6 @@
   margin-left: 1400px;
 }
 
-
 .animation-ex {
   width: 200px;
   height: 200px;
@@ -99,30 +85,7 @@
 
 }
 
-@keyframes ani-ex {
-  0% {
-    background-color: rgba(214, 198, 228, 0.3);
-  }
-
-  50% {
-    background-color: rgba(255, 255, 255, 0.3);
-  }
-
-  100% {
-    background-color: rgba(214, 198, 228, 0.3);
-  }
-
-
-  /* from {
-    background-color: rgb(221, 209, 232);
-  }
-
-  to {
-    background-color: rgb(255, 255, 255);
-  } */
-
-}
-
+/* highlight */
 mark {
   background-color: rgba(214, 198, 228, 0.3);
   color: rgb(96, 54, 133);
@@ -140,7 +103,6 @@ mark {
   cursor: pointer;
   position: absolute;
 }
-
 
 /* Image Animation */
 .image_line1 {
@@ -187,6 +149,7 @@ mark {
   position: absolute;
 }
 
+/* this is so long, I wonder if there's a faster way to do this? */
 .star-1 {
   height: 17px;
   width: 17px;
@@ -417,6 +380,45 @@ mark {
   100% {
     left: calc(10vw - 50px);
   }
+}
+
+/* other testing area */
+.test {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hero-test {
+  background-color: lightslategray;
+  padding: 2%;
+  margin-right: 6%;
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+
+@keyframes ani-ex {
+  0% {
+    background-color: rgba(214, 198, 228, 0.3);
+  }
+
+  50% {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  100% {
+    background-color: rgba(214, 198, 228, 0.3);
+  }
+
+
+  /* from {
+    background-color: rgb(221, 209, 232);
+  }
+
+  to {
+    background-color: rgb(255, 255, 255);
+  } */
+
 }
 
 .blue-square {
