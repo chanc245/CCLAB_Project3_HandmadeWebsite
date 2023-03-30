@@ -397,8 +397,6 @@ mark {
   animation-duration: 2.1s;
 }
 
-
-
 @keyframes twinkle {
   50% {
     transform: scale(0.5);
@@ -406,6 +404,20 @@ mark {
   }
 }
 
+.moving-image {
+  position: absolute;
+  animation: move-back-and-forth 5s linear infinite alternate;
+}
+
+@keyframes move-back-and-forth {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: calc(10vw - 50px);
+  }
+}
 
 .blue-square {
   width: 50px;
