@@ -14,11 +14,18 @@
 
 .hero {
   /* background-color: lightslategray; */
-  padding: 2%;
-  margin-right: 6%;
+  /* position: fixed; */
+  /* padding: 450px; */
+  margin: 500px;
+  /* margin-left: 1500px; */
   width: 60%;
+
   display: inline-block;
   float: right;
+
+  text-align: middle;
+  font-size: 30px;
+  font-family: Cursive;
 }
 
 .nav {
@@ -31,22 +38,59 @@
   align-items: flex-end;
 }
 
-body {
-  margin: 50;
-  padding: 50;
+.nav img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.body {
+  /* margin: 50; */
+  /* padding: 50; */
+
+  position: fixed;
+  background-repeat: no-repeat;
+  /* background-image: url("/image/1_2_background.png"); */
+}
+
+.line1 {
+  background-image: url("/image/1_2_background.png");
+}
+
+/* when I figuer this out, I was so proud :) */
+
+.line2 {
+  background-image: url("/image/2_2_background.png")
+}
+
+.line3 {
+  background-image: url("/image/3_2_background.png")
+}
+
+.line4 {
+  background-image: url("/image/4_2_background.png")
 }
 
 
 .poem-first-line {
-  padding: 300px 0;
-  text-align: middle;
-  /* align-content: center; */
-  /* align-items: center; */
+  margin-left: 1550px;
+}
+
+.poem-second-line {
+  margin-left: 1100px;
+}
+
+.poem-third-line {
+  margin-left: 1450px;
+}
+
+.poem-fourth-line {
+  margin-left: 1400px;
 }
 
 
 .animation-ex {
-  width: 500px;
+  width: 200px;
   height: 200px;
   /* background-color: red; */
   animation-name: ani-ex;
