@@ -41,21 +41,21 @@
 
 /* background picture placing */
 .line1 {
-  background-image: url("/image/1_2_background.png");
+  background-image: url("/CCLAB_Project3_HandmadeWebsite/image/1_2_background.png");
 }
 
 /* when I figuer this out, I was so proud :) */
 
 .line2 {
-  background-image: url("/image/2_2_background.png")
+  background-image: url("/CCLAB_Project3_HandmadeWebsite/image/2_2_background.png")
 }
 
 .line3 {
-  background-image: url("/image/3_2_background.png")
+  background-image: url("/CCLAB_Project3_HandmadeWebsite/image/3_2_background.png")
 }
 
 .line4 {
-  background-image: url("/image/4_2_background.png")
+  background-image: url("/CCLAB_Project3_HandmadeWebsite/image/4_2_background.png")
 }
 
 /* line position placing */
